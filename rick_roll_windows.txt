@@ -1,0 +1,12 @@
+REM Rick Roll script
+DELAY 1000
+
+REM Open the Run Dialog (Windows Key + R)
+GUI r
+DELAY 200
+
+STRING chrome "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+ENTER
+DELAY 2000
+REM Video doesn't play immediately so we send spacebar also
+SPACE
